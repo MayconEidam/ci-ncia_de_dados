@@ -10,5 +10,7 @@ async function visualizarInformacoesGlobais() {
      que aproximadamente ${dados.total_pessoas_conectadas}
      estão conectadas em alguma rede social e passam em média
      ${dados.tempo_medio} horas conectadas.`
-     console.log(paragrafo)
+
+     const container = document.getElementByld('graficos-container')
+     container.appendChild(paragrafo)
 }
