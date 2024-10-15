@@ -14,3 +14,4 @@ async function visualizarInformacoesGlobais() {
      const container = document.getElementByld('graficos-container')
      container.appendChild(paragrafo)
 }
+visualizarInformacoesGlobais()
