@@ -3,7 +3,7 @@ const url = 'https://raw.githubusercontent.com/guilhermeonrails/api/main/dados-g
 async function visualizarInformacoesGlobais() {
     const res = await fetch(url)
     const dados = await res.json()
-    const paragrafo = documente.createElemente('p')
+    const paragrafo = document.createElemente('p')
     paragrafo.classList.add('graficos-container_texto')
     paragrafo.innerHTML = `Você sabia que o mundo tem
      ${dados.total_pessoas_mundo} de pessoas e
